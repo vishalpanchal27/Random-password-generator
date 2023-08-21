@@ -61,6 +61,7 @@
     padding-left: 10px;
     outline: none;
     color:lightgray;
+    color: lightgray;
 }
 
 #output::-webkit-input-placeholder {
