@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(26deg, rgba(213, 187, 227, 1) 0%, rgba(138, 3, 217, 1) 54%, rgba(52, 1, 103, 1) 100%);
+}
+
+.card {
+    display: flex;
+    border-radius: 0.3rem;
+    flex-direction: column;
+    width: 23rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    /* height: 60vh; */
+    padding: 10px;
+}
+
+.outputScr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+    align-items: center;
+}
+
+#copyBtn {
+    /* border: 2px solid red; */
+    width: 30%;
+    background-image: url(https://seekicon.com/free-icon-download/copy_4.svg);
+    background-repeat: no-repeat;
+    height: 1.9rem;
+    cursor: pointer;
+    z-index: 100;
+    filter: invert(80%);
+}
+
+.checkBoxs {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+#output {
+    display: flex;
+    height: 2.8rem;
+    width: 240px;
+    margin: 5px 0rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(228, 221, 221);
+    background-color: transparent;
+    width: 19rem;
+    padding-left: 10px;
+    outline: none;
+}
+
+#output::-webkit-input-placeholder {
+    color: yellow;
+}
+
+.secondContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondContainer p {
+    font-size: 1.4rem;
+}
+
+#rangeLength {
+    width: 100%;
+    height: 2rem;
+    background-color: red;
+}
+
+.strength {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+    font-size: 1.3rem;
+}
+
+.StrengthColor {
+    border-radius: 100%;
+    height: 1rem;
+    width: 1rem;
+    background-color: red;
+    box-shadow: 0px 0px 12px 7px red;
+}
+
+#GenerateBtn {
+    height: 3rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: lightgray;
+    border: 3px solid lightgray;
+    width: 95%;
+    margin: 0px 2.5%;
+    cursor: pointer;
+}
+
+
+
+.uppercaseCheck input:checked {
+    background-color: black;
+}
+
+#belowSection {
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding: 10px;
+    background-color: rgb(118 29 202);
+    ;
+}
+
+#aboveSection {
+    background-color: rgb(118 29 202);
+}
+
+p,
+h1,
+label {
+    color: lightgray;
+}
